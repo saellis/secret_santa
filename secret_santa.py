@@ -29,7 +29,7 @@ if __name__ == '__main__':
 	server.starttls()
 	server.login(fromaddr, password)
 
-	subject = 'Secret Santa Assignments'
+	subject = 'Secret Santa Assignment'
 	body = """Hello {},
 
 	This email is a notification to let you know that it is your responsiblity to buy {} a gift this year. Try to spend around ${} on it.
