@@ -4,7 +4,7 @@ import csv
 from random import shuffle
 
 def read_csv(filename):
-	with open('people.csv', 'rb') as csvfile:
+	with open(filename, 'rb') as csvfile:
 		reader = csv.reader(csvfile, delimiter=',')
 		return [tuple(x) for x in reader]
 
